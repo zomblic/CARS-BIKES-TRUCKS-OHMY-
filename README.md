@@ -1,4 +1,4 @@
-# <span style="color:rgb(255, 0, 76);">IT GOES VROOM-VROOM!</span>
+# <span style="color:rgb(255, 0, 76);">MAKING VROOM VROOMS</span>
 ![License: MIT](./utils/MITBADGE.svg)
 ##  <span style="color:rgb(0, 217, 255);">Table of Contents</span>
 - [Description](#description)
@@ -14,15 +14,18 @@
 
   ## <span style="color:rgb(158, 66, 160);">Description</span>
 
-  [![Watch the video]](https://raw.githubusercontent.com/zomblic/makingacar/main/video/video.mov)
+  [![Watch the video]](https://raw.githubusercontent.com/zomblic/makingacar/main/video/Example.mov)
 
   
-  Let's make a car!
+  Let's make a car! Or a truck! Or a motorcycle! Motorbike? Cycle. This create a car generator allows you to create your own car in the style of Zork! ... minus the scary, tiny goblin monster waiting for you at the wrong turn in the forest. 
 
+  Once you decide on the type of automoblile, you'll be able to write your own make/model/year and decide on the color!
 
   ## <span style="color:rgb(255, 0, 153);">License</span>
     This project is licensed under the MIT license.
-    [MIT](https://opensource.org/licenses/MIT)
+
+    [MIT](https://opensource.org/licenses/MIT) <-- the link
+
   Click on the link to learn what the MIT License entails!
 
   ## <span style="color:rgb(255, 0, 255);">Install</span>
@@ -32,13 +35,17 @@
 
   Required Dependencies: Inquirer (via NPM), TypeScript
 
-  Optional Requirement: 
+  Optional Requirement: Knowledge of basic char information.
 
-  After setting up VScode and Node, navitage to your terminal and type in the code 'npm i inquirer' and after 'npm i colors'.
-  Once they're installed, type in your terminal "node index.js" and beging answering the quewstions. All the questions if possible. Omnce you see the "Congrats you've created your README!" message, a readme.md should generate.
-  Click on the file and marvel at your readme!
+  After setting up VScode and Node, navitage to your terminal and type in the code 'npm i'.
+  Once installed, type in your terminal "npm start" and just wait a moment as our 'Create a Vroom Vroom' menu appears.
 
   ## <span style="color:rgb(0, 147, 206);">Usage</span>
+
+  After installing, select between the three already stored vechicles or go ahead and create your own. 
+  If choosing to create your own, simply write the answer for each question. You can choose to base it off a real car, or... make it up? I mean, I'm sure there'll be trucks that can one day tow 5,000,000lbs worth of trucks. 
+
+If you choose to go with the premade cars, select the option and choose from the available list. Now, if you created a car, it should spawn there, along with all the information once you click into it. Select an option and you'll open up a menu with several options. You'll be able to start, reserve, turn and stop your car. Not only that, you'll be able to check to see if your car can do a wheelie (for motorcycles/bikes only I'm afraid) or if they can tow (trucks only, for now), or you can decided to 'print' the information and have the information logged into your terminal. The printed option also provides the vin number and wheels, etc. 
 
 
 
