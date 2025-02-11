@@ -79,7 +79,7 @@ class Truck extends Vehicle implements AbleToTow {
       Weight: ${this.weight}, 
       Top Speed: ${this.topSpeed}, 
       Color: ${this.color}, 
-      Wheels: ${this.wheels}, 
+      Wheels: ${this.wheels.join(',')}, 
       towingCapacity: ${this.towingCapacity}.`);
   }
 

@@ -1,132 +1,73 @@
-# 08 TypeScript and OOP: Vehicle Builder
+# <span style="color:rgb(255, 0, 76);">IT GOES VROOM-VROOM!</span>
+![License: MIT](./utils/MITBADGE.svg)
+##  <span style="color:rgb(0, 217, 255);">Table of Contents</span>
+- [Description](#description)
+- [License](#license)
+- [Install](#install)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Additional Info](#additional-info)
+- [Issues and Bugs](#issues-and-bugs)
+  
 
-## Your Task
+  ## <span style="color:rgb(158, 66, 160);">Description</span>
 
-Your task is to update an existing TypeScript command-line application that builds and uses cars to have additional options for motorbikes and trucks. The application prompts the user to create a new vehicle or select an existing vehicle. After going through the creation process or the selection process, the user is able to perform certain actions with the selected vehicle. The user is returned to the actions menu after each action until they decide to exit the application.
+  [![Watch the video]](https://raw.githubusercontent.com/zomblic/makingacar/main/video/video.mov)
 
-Because this application won't be deployed, you'll need to provide a link to a walkthrough video that demonstrates its functionality. You'll need to submit a link to the video **and** add it to the README of your project.
+  
+  Let's make a car!
 
-Refer to the [video submission guide on the Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) for additional guidance on creating a video.
 
-### User Story
+  ## <span style="color:rgb(255, 0, 153);">License</span>
+    This project is licensed under the MIT license.
+    [MIT](https://opensource.org/licenses/MIT)
+  Click on the link to learn what the MIT License entails!
 
-```md
-AS a developer
-I WANT to update an existing application to include additional vehicle types
-SO THAT I am able to comprehend and work with existing code bases.
-```
+  ## <span style="color:rgb(255, 0, 255);">Install</span>
+  Required tools: VS Code, Git Bash, (I'm assuming you already have github), Node (the most recent version).
 
-## Acceptance Criteria
+  Required Additional Tools: Npm, a Computer (which I'm assuming you already have).
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted to create a new vehicle or existing vehicle
-THEN I can choose between the two options
-WHEN I am prompted to choose the vehicle type during creation
-THEN I can choose between car, truck, and motorbike
-WHEN I am prompted for details about the vehicle
-THEN I can enter the vehicle information
-WHEN I have entered all the vehicle information
-THEN I can use the created vehicle
-WHEN I select an existing vehicle
-THEN I can use the selected existing vehicle
-WHEN I have created a new vehicle or selected an existing vehicle
-THEN I can perform actions with that vehicle
-WHEN I perform an action with a vehicle
-THEN I see the result of the action in the command-line
-WHEN I complete the process of performing an action
-THEN I can perform additional actions until I choose to exit
-```
+  Required Dependencies: Inquirer (via NPM), TypeScript
 
-## Additional Requirements
+  Optional Requirement: 
 
-This Challenge combines many of the skills covered so far. In addition to the user story and acceptance criteria, we've provided some guidelines to help you get started.
+  After setting up VScode and Node, navitage to your terminal and type in the code 'npm i inquirer' and after 'npm i colors'.
+  Once they're installed, type in your terminal "node index.js" and beging answering the quewstions. All the questions if possible. Omnce you see the "Congrats you've created your README!" message, a readme.md should generate.
+  Click on the file and marvel at your readme!
 
-Because this Challenge requires a video submission, refer to the [Full-Stack Blog video submission guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) for guidance on creating and sharing a video.
+  ## <span style="color:rgb(0, 147, 206);">Usage</span>
 
-Your application should use [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user. The application will be invoked by using the following command:
 
-```bash
-npm start
-```
 
-## 📝 Notes
 
-Moving forward, you will be provided with the `tsconfig.json` file. This is to reflect the fact that most companies assign you projects with these configurations already set up.
+  ## <span style="color:rgb(225, 112, 112);">Credits</span>
+    To the bootcamp for providing the readme for the assignment,
 
-## Helpful TypeScript Resources
+    Classmates for forming study groups to problem solve and figure it out -- thanks to Clinton R for helping with final leg of  the project and catching the syntax!
+    Tutors (Erik for explaining and helping witht he code -- override especially) and TAs for being patient and helping us out,
 
-* [Classes](https://www.typescriptlang.org/docs/handbook/2/classes.html)
+    Google (and the many, many, many websites that offered advice, tibits and a variety of coding exmaples-- StackOverflow and GeekdforGeeks mainly),
 
-* [Object types](https://www.typescriptlang.org/docs/handbook/2/objects.html)
+    Co-Pilot for identifying debugging and slightly tweaking (not sure how to succesfully cite debugged code tho)
 
-* [Everyday types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
+    And Vs Code!
+    
+      ... we don't talk about gitbash.
+  
+  ## <span style="color:rgb(255, 0, 98);">Tests</span>
+    There are currently no tests available for the project.
+    But it does work! Promise!
 
-* [More on functions](https://www.typescriptlang.org/docs/handbook/2/functions.html)
+  ## <span style="color:rgb(2, 162, 255);">Questions</span>
+    Any questions can be directed to the owner of the repo -- me!
 
-## Grading Requirements
+   ## <span style="color:rgb(112, 163, 225);">Issues and Bugs</span>
+    However, if there any bugs, please reach out via Github:
+    Github Username: Zomblic
+ 
 
-> **Note** If a Challenge assignment submission is marked as "0," it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Deliverables: 20%
-
-* A walkthrough video that demonstrates the functionality of the Vehicle Builder.
-
-* Your GitHub repository containing your application code.
-
-### Walkthrough Video: 27%
-
-* The `README.md` file must include a link to the walkthrough video.
-
-* The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-* The walkthrough video must demonstrate all the prompts and functionality related to trucks and motorbikes working properly.
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
-
-  * It uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-  * The application must have properly implemented `Truck` and `Motorbike` classes:
-
-    * The user should be able to choose between a car, a truck, or a motorbike when creating a vehicle.
-
-    * The `Truck` and `Motorbike` classes must prompt the user for details that the `Car` class doesn't.
-
-    * The `Truck` class must allow the user to implement an action that the `Car` and `Motorbike` classes cannot.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality readme with description and a link to a walkthrough video.
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video that demonstrates the functionality of the application.
-
-* The URL of the GitHub repository, with a unique name and a README describing the project.
-
----
-&copy; 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+  ## <span style="color:rgb(245, 0, 122);">Additional Info</span>
+    No code was harmed in the making of this readme.
