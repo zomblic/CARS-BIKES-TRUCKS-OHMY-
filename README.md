@@ -44,8 +44,8 @@
 
   After installing, select between the three already stored vechicles or go ahead and create your own. 
   If choosing to create your own, simply write the answer for each question. You can choose to base it off a real car, or... make it up? I mean, I'm sure there'll be trucks that can one day tow 5,000,000lbs worth of trucks. 
-
-If you choose to go with the premade cars, select the option and choose from the available list. Now, if you created a car, it should spawn there, along with all the information once you click into it. Select an option and you'll open up a menu with several options. You'll be able to start, reserve, turn and stop your car. Not only that, you'll be able to check to see if your car can do a wheelie (for motorcycles/bikes only I'm afraid) or if they can tow (trucks only, for now), or you can decided to 'print' the information and have the information logged into your terminal. The printed option also provides the vin number and wheels, etc. 
+  
+  If you choose to go with the premade cars, select the option and choose from the available list. Now, if you created a car, it should spawn there, along with all the information once you click into it. Select an option and you'll open up a menu with several options. You'll be able to start, reserve, turn and stop your car. Not only that, you'll be able to check to see if your car can do a wheelie (for motorcycles/bikes only I'm afraid) or if they can tow (trucks only, for now), or you can decided to 'print' the information and have the information logged into your terminal. The printed option also provides the vin number and wheels, etc. 
 
 
 
@@ -65,16 +65,20 @@ If you choose to go with the premade cars, select the option and choose from the
       ... we don't talk about gitbash.
   
   ## <span style="color:rgb(255, 0, 98);">Tests</span>
+
     There are currently no tests available for the project.
     But it does work! Promise!
 
   ## <span style="color:rgb(2, 162, 255);">Questions</span>
+
     Any questions can be directed to the owner of the repo -- me!
 
    ## <span style="color:rgb(112, 163, 225);">Issues and Bugs</span>
+
     However, if there any bugs, please reach out via Github:
     Github Username: Zomblic
  
 
   ## <span style="color:rgb(245, 0, 122);">Additional Info</span>
+
     No code was harmed in the making of this readme.
